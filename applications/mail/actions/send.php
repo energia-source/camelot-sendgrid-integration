@@ -2,7 +2,7 @@
 
 namespace applications\mail\actions;
 
-use configurations\mail\Sendgrid as Configuration;
+use configurations\mail\SendGrid as Configuration;
 
 use SendGrid;
 use SendGrid\Mail\Mail;

@@ -3,7 +3,7 @@
 namespace applications\mail\actions;
 
 use stdClass;
-use configurations\mail\Sendgrid as Configuration;
+use configurations\mail\SendGrid as Configuration;
 
 use SendGrid\Client;
 
