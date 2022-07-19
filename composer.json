@@ -1,13 +1,15 @@
 {
-	"name": "energia-europa/energia-europa-sendgrid",
+	"name": "energia-source/camelot-sendgrid-integration",
 	"type": "project",
-	"description": "Energia Europa e-sendgrid",
+	"description": "Camelot - Sendgrid Integration",
 	"keywords": [
 		"ubyte",
 		"energia europa",
-		"e-sendgrid"
+		"sendgrid",
+		"contact",
+		"mail"
 	],
-	"homepage": "https://source.cloud.google.com/energia-cloud-core/energia-europa-sendgrid",
+	"homepage": "https://github.com/energia-source/camelot-sendgrid-integration",
 	"license": "MIT",
 	"authors": [
 		{
