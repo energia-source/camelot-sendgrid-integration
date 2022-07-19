@@ -1,0 +1,51 @@
+{
+	"name": "energia-europa/energia-europa-sendgrid",
+	"type": "project",
+	"description": "Energia Europa e-sendgrid",
+	"keywords": [
+		"ubyte",
+		"energia europa",
+		"e-sendgrid"
+	],
+	"homepage": "https://source.cloud.google.com/energia-cloud-core/energia-europa-sendgrid",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Paolo Fabris",
+			"email": "support@ubyte.it",
+			"homepage": "https://www.ubyte.it/",
+			"role": "Developer"
+		},
+		{
+			"name": "Gabriele Luigi Masero",
+			"email": "support@ubyte.it",
+			"homepage": "https://www.ubyte.it/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.2",
+		"ext-mbstring": "*",
+		"ext-zip": "*",
+		"knight/armor": "3.2.2",
+		"knight/artifact-entity": "5.9.6",
+		"sendgrid/sendgrid": "~7"
+	},
+	"autoload": {
+		"psr-4": {
+			"applications\\": "applications/",
+			"configurations\\": "configurations/",
+			"extensions\\": "extensions/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/energia-source/knight-armor"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/energia-source/knight-artifact-entity"
+		}
+	]
+}
